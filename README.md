@@ -196,6 +196,19 @@
   </details>
 
 
+#### Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth
+
+> Wei Chen, Xixuan Hao, Yuankai Wu, Yuxuan Liang
+
+* Paper: Null
+* Dataset and Code: https://anonymous.4open.science/r/Terra
+
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Since the inception of our planet, the meteorological environment, as reflected through spatio-temporal data, has always been a fundamental factor influencing human life, socio-economic progress, and ecological conservation. A comprehensive exploration of this data is thus imperative to gain a deeper understanding and more accurate forecasting of these environmental shifts. Despite the success of deep learning techniques within the realm of spatio-temporal data and earth science, existing public datasets are beset with limitations in terms of spatial scale, temporal coverage, and reliance on limited time series data. These constraints hinder their optimal utilization in practical applications. To address these issues, we introduce \dataset, a multimodal spatio-temporal dataset spanning the earth. This dataset encompasses hourly time series data from 6,480,000 grid areas worldwide over the past 45 years, while also incorporating multimodal spatial supplementary information including geo-images and explanatory text. Through a detailed data analysis and evaluation of existing deep learning models within earth sciences, utilizing our constructed dataset. we aim to provide valuable opportunities for enhancing future research in spatio-temporal data mining, thereby advancing towards more spatio-temporal general intelligence. Our source code and data can be accessed at https://anonymous.4open.science/r/Terra.
+  </details>
+
+
 
 #### Learning De-Biased Representations for Remote-Sensing Imagery
 
@@ -263,4 +276,46 @@
 * <details>
     <summary>Abstract (Click to expand):</summary>
     Districting is a complex combinatorial problem that consists in partitioning a geographical area into small districts. In logistics, it is a major strategic decision determining operating costs for several years. Solving them using traditional methods is intractable even for small geographical areas and existing heuristics, while quick, often provide sub-optimal results. We present a structured learning approach to find high-quality solutions to real-world districting problems in a few minutes. It is based on integrating a combinatorial optimization layer, the capacitated minimum spanning tree problem, into a graph neural network architecture. To train this pipeline in a decision-aware fashion, we show how to construct target solutions embedded in a suitable space and learn from target solutions. Experiments show that our approach outperforms existing methods as it reduces costs by 10% on average on real-world cities.
+  </details>
+
+
+
+
+#### Toward Real Ultra Image Segmentation: Leveraging Surrounding Context to Cultivate General Segmentation Model
+
+> Sai Wang, Yutian Lin, Yu Wu, Bo Du
+
+* Paper: Null
+* Code: Null
+
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Existing ultra image segmentation methods suffer from two major challenges, namely the generalization issue (i.e. they lack the stability and generality of standard segmentation models, as they are tailored to specific datasets), and the architectural issue (i.e. they are incompatible with real-world ultra image scenes, as they compromise between image size and computing resources).To tackle these issues, we revisit the classic sliding inference framework, upon which we propose a Surrounding Guided Segmentation framework (SGNet) for ultra image segmentation. The SGNet leverages a larger area around each image patch to refine the general segmentation results of local patches.Specifically, we propose a surrounding context integration module to absorb surrounding context information and extract specific features that are beneficial to local patches. Note that, SGNet can be seamlessly integrated to any general segmentation model.Extensive experiments on five datasets demonstrate that SGNet achieves competitive performance and consistent improvements across a variety of general segmentation models, surpassing the traditional ultra image segmentation methods by a large margin.
+  </details>
+
+
+#### Identifying spatio-temporal relations between anomalies and extreme events
+
+> Mohamad Hakam Shams Eddin, Jürgen Gall
+
+* Paper: Null
+* Code: Null
+
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    The spatio-temporal relations of anomalies in climate data and extreme events are not fully understood and there is a need of machine learning approaches to identify such spatio-temporal relations from data. The task, however, is very challenging since there are time delays between anomalies and extremes, and the spatial response of anomalous events is inhomogeneous. In this work, we propose a first approach and benchmarks to tackle this challenge. Our approach is trained end-to-end to predict spatio-temporally extremes and spatio-temporally anomalies in the physical input variables jointly. By enforcing the network to predict extremes from spatio-temporal binary masks of identified anomalies, the network successfully identifies anomalies that are correlated with extremes. We evaluate our approach on three newly created synthetic benchmarks where two of them are based on remote sensing or reanalysis climate data and on two real-world reanalysis datasets. The source code and datasets will be made publicly available upon publication.
+  </details>
+
+
+
+#### Connectivity-Driven Pseudo-Labeling Makes Stronger Cross-Domain Segmenters
+
+> Dong Zhao, Shuang Wang, Qi Zang, Nicu Sebe, Zhun Zhong
+
+* Paper: Null
+* Code: Null
+
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Presently, pseudo-labeling stands as a prevailing approach in cross-domain semantic segmentation, enhancing model efficacy by training with pixels assigned with reliable pseudo-labels. However, we identify two key limitations within this paradigm: (1) under relatively severe domain shifts, most selected reliable pixels appear speckled and remain noisy. (2) when dealing with wild data, some pixels belonging to the open-set class may exhibit high confidence and also appear speckled. These two points make it difficult for the pixel-level selection mechanism to identify and correct these speckled close- and open-set noises. As a result, error accumulation is continuously introduced into subsequent self-training, leading to inefficiencies in pseudo-labeling. To address these limitations, we propose a novel method called Semantic Connectivity-driven Pseudo-labeling (SeCo). SeCo formulates pseudo-labels at the connectivity level, which makes it easier to locate and correct closed and open set noise. Specifically, SeCo comprises two key components: Pixel Semantic Aggregation (PSA) and Semantic Connectivity Correction (SCC). Initially, PSA categorizes semantics into stuff'' andthings'' categories and aggregates speckled pseudo-labels into semantic connectivity through efficient interaction with the Segment Anything Model (SAM). This enables us not only to obtain accurate boundaries but also simplifies noise localization. Subsequently, SCC introduces a simple connectivity classification task, which enables us to locate and correct connectivity noise with the guidance of loss distribution. Extensive experiments demonstrate that SeCo can be flexibly applied to various cross-domain semantic segmentation tasks, \textit{i.e.} domain generalization and domain adaptation, even including source-free, and black-box domain adaptation, significantly improving the performance of existing state-of-the-art methods. The code is provided in the appendix and will be open-source.
   </details>
