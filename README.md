@@ -258,8 +258,8 @@
 
 > Ziyuan Zhang, Han Qiu, Zhang Maosen, Jun Liu, Bin Chen, Tianwei Zhang, Hewu Li
 
-* Paper: Null
-* Code: Null
+* Paper: https://arxiv.org/abs/2410.01698v1
+* Code: https://github.com/joanna-0421/cosmic
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -300,7 +300,7 @@
 
 > Sai Wang, Yutian Lin, Yu Wu, Bo Du
 
-* Paper: Null
+* News: http://sigma.whu.edu.cn/newspage.php?q=2024_10_08_01
 * Code: Null
 
 * <details>
@@ -327,7 +327,7 @@
 
 > Dong Zhao, Shuang Wang, Qi Zang, Nicu Sebe, Zhun Zhong
 
-* Paper: Null
+* News: https://ipiu.xidian.edu.cn/info/1097/2757.htm
 * Code: Null
 
 * <details>
