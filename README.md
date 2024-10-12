@@ -4,7 +4,7 @@
 
 ## 📢 Latest Updates
 :fire::fire::fire: Last Updated on 2024.09.28 :fire::fire::fire:
-
+- **2024.10.12**: Update 4 papers.
 - **2024.9.28**: Update 14 papers.
 
 
