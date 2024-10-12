@@ -229,7 +229,7 @@
 
 > Zichen Tian, Zhaozheng CHEN, QIANRU SUN
 
-* Paper: Null
+* Paper: https://arxiv.org/abs/2410.04546
 * Code: Null
 
 * <details>
