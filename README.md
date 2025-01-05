@@ -138,7 +138,7 @@
 > Haicang Zhou, Weiming Huang, Yile Chen, Tiantian He, Gao Cong, Yew Soon Ong
 
 * Paper: https://arxiv.org/abs/2406.04038
-* Code: Null
+* Code: https://github.com/Haicang/Garner
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -149,7 +149,7 @@
 
 > Ruohan Li, Yiqun Xie, Xiaowei Jia, Dongdong Wang, Yanhua Li, Yingxue Zhang, Zhihao Wang, Zhili Li
 
-* Paper: Null
+* Paper: https://openreview.net/forum?id=WffhOhYvZ0
 * Dataset and models: https://doi.org/10.5281/zenodo.11498739
 * Code: https://github.com/Ruohan-Li/SolarCube
 
@@ -164,7 +164,7 @@
 > Pengyue Jia, Yiding Liu, Xiaopeng Li, Xiangyu Zhao, Yuhao Wang, Yantong Du, Xiao Han, Xuetao Wei, Shuaiqiang Wang, Dawei Yin
 
 * Paper: https://arxiv.org/abs/2405.14702
-* Code: https://anonymous.4open.science/r/G3-937C
+* Code: https://github.com/Applied-Machine-Learning-Lab/G3
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -190,7 +190,7 @@
 > Prakhar Srivastava, Ruihan Yang, Gavin Kerrigan, Gideon Dresdner, Jeremy McGibbon, Christopher S, Bretherton, Stephan Mandt
 
 * Paper: https://arxiv.org/abs/2312.06071
-* Code: Null
+* Code: https://github.com/mandt-lab/STVD
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -215,8 +215,8 @@
 
 > Wei Chen, Xixuan Hao, Yuankai Wu, Yuxuan Liang
 
-* Paper: Null
-* Dataset and Code: https://anonymous.4open.science/r/Terra
+* Paper: https://openreview.net/forum?id=I0zpivK0A0
+* Dataset and Code: https://github.com/CityMind-Lab/NeurIPS24-Terra
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -243,12 +243,12 @@
 
 > jialin luo, Yuanzhi Wang, Ziqi Gu, Yide Qiu, Shuaizhen Yao, Fuyun Wang, Chunyan Xu, Wenhua Zhang, Dan Wang, Zhen Cui
 
-* Paper: Null
-* Dataset: https://anonymous.4open.science/r/MMM-RS-C73A/
+* Paper: https://arxiv.org/abs/2410.22362
+* Dataset: https://github.com/ljl5261/MMM-RS
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
-    Recently, the diffusion-based generative paradigm has achieved impressive general image generation capabilities with text prompt due to its accurate distribution modeling and stable training process. However, generating diverse remote sensing (RS) images that are tremendously different from general images in terms of scale and perspective remains a formidable challenge due to the lack of a comprehensive remote sensing image generation dataset with various modalities, ground sample distances (GSD), and scenes. In this paper, we propose a Multi-modal, Multi-GSD, Multi-scene Remote Sensing MMM-RS dataset and benchmark for text-to-image generation in diverse remote sensing scenarios. Specifically, we first collect nine publicly available RS datasets and conduct standardization for all samples. To bridge RS images to textual semantic information, we utilize a large-scale pretrained vision-language model to automatically output text prompt and perform hand-crafted rectification, resulting in information-rich text-image pairs (including multi-modal images).In particular, we design some methods to obtain the images with different GSD and various environments (e.g., low-light, foggy) in a single sample. With extensive manual screening and refining annotations, we ultimately obtain a MMM-RS dataset that comprises approximately 2.1 million text-image pairs. Extensive experimental results verify that our proposed MMM-RS dataset allows off-the-shelf diffusion models to generate diverse RS images across various modalities, scenes, weather conditions, and GSD. The dataset is available at https://anonymous.4open.science/r/MMM-RS-C73A/.
+    Recently, the diffusion-based generative paradigm has achieved impressive general image generation capabilities with text prompts due to its accurate distribution modeling and stable training process. However, generating diverse remote sensing (RS) images that are tremendously different from general images in terms of scale and perspective remains a formidable challenge due to the lack of a comprehensive remote sensing image generation dataset with various modalities, ground sample distances (GSD), and scenes. In this paper, we propose a Multi-modal, Multi-GSD, Multi-scene Remote Sensing (MMM-RS) dataset and benchmark for text-to-image generation in diverse remote sensing scenarios. Specifically, we first collect nine publicly available RS datasets and conduct standardization for all samples. To bridge RS images to textual semantic information, we utilize a large-scale pretrained vision-language model to automatically output text prompts and perform hand-crafted rectification, resulting in information-rich text-image pairs (including multi-modal images). In particular, we design some methods to obtain the images with different GSD and various environments (e.g., low-light, foggy) in a single sample. With extensive manual screening and refining annotations, we ultimately obtain a MMM-RS dataset that comprises approximately 2.1 million text-image pairs. Extensive experimental results verify that our proposed MMM-RS dataset allows off-the-shelf diffusion models to generate diverse RS images across various modalities, scenes, weather conditions, and GSD.
   </details>
 
 
@@ -272,8 +272,8 @@
 
 > Zihan Lu, Chunyan Xu, wang chenxu, Xiangwei Zheng, Zhen Cui
 
-* Paper: Null
-* Code: Null
+* Paper: https://openreview.net/forum?id=Jzog9gvOf6
+* Code: https://github.com/SAOD-research/PECL
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -285,12 +285,12 @@
 
 > Cheikh Ahmed, Alexandre Forel, Axel Parmentier, Thibaut Vidal
 
-* Paper: Null
-* Code: Null
+* Paper: https://arxiv.org/abs/2412.08287
+* Code: https://github.com/cheikh025/DistrictNet
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
-    Districting is a complex combinatorial problem that consists in partitioning a geographical area into small districts. In logistics, it is a major strategic decision determining operating costs for several years. Solving them using traditional methods is intractable even for small geographical areas and existing heuristics, while quick, often provide sub-optimal results. We present a structured learning approach to find high-quality solutions to real-world districting problems in a few minutes. It is based on integrating a combinatorial optimization layer, the capacitated minimum spanning tree problem, into a graph neural network architecture. To train this pipeline in a decision-aware fashion, we show how to construct target solutions embedded in a suitable space and learn from target solutions. Experiments show that our approach outperforms existing methods as it reduces costs by 10% on average on real-world cities.
+    Districting is a complex combinatorial problem that consists in partitioning a geographical area into small districts. In logistics, it is a major strategic decision determining operating costs for several years. Solving districting problems using traditional methods is intractable even for small geographical areas and existing heuristics often provide sub-optimal results. We present a structured learning approach to find high-quality solutions to real-world districting problems in a few minutes. It is based on integrating a combinatorial optimization layer, the capacitated minimum spanning tree problem, into a graph neural network architecture. To train this pipeline in a decision-aware fashion, we show how to construct target solutions embedded in a suitable space and learn from target solutions. Experiments show that our approach outperforms existing methods as it can significantly reduce costs on real-world cities.
   </details>
 
 
@@ -300,7 +300,7 @@
 
 > Sai Wang, Yutian Lin, Yu Wu, Bo Du
 
-* News: http://sigma.whu.edu.cn/newspage.php?q=2024_10_08_01
+* Paper: https://openreview.net/forum?id=nU4lvlMwrt
 * Code: Null
 
 * <details>
@@ -313,8 +313,8 @@
 
 > Mohamad Hakam Shams Eddin, Jürgen Gall
 
-* Paper: Null
-* Code: Null
+* Paper: https://arxiv.org/abs/2410.24075
+* Project: https://hakamshams.github.io/IDE/
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -328,7 +328,7 @@
 > Dong Zhao, Shuang Wang, Qi Zang, Nicu Sebe, Zhun Zhong
 
 * News: https://ipiu.xidian.edu.cn/info/1097/2757.htm
-* Code: Null
+* Code: https://openreview.net/forum?id=VIqQSFNjyP
 
 * <details>
     <summary>Abstract (Click to expand):</summary>
